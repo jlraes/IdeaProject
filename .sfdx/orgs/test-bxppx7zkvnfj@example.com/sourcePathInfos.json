@@ -1,0 +1,2322 @@
+[
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app",
+        {
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1532372860595,
+            "changeTime": 1532372860595,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main",
+        {
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1532372860595,
+            "changeTime": 1532372860595,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085771,
+            "changeTime": 1532378085771,
+            "contentHash": "6692ba5379555a66b58bce2bb06f332294f8d1f1"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085563,
+            "changeTime": 1532378085563,
+            "contentHash": "201b7de4fd4984c471e9f8ba81e8468274854c01"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject",
+        {
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1532372895588,
+            "changeTime": 1532372895588,
+            "contentHash": "3d48858a737ab8c39315eaf1c5149980d1a9cdae",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 279,
+            "modifiedTime": 1532378085479,
+            "changeTime": 1532378085479,
+            "contentHash": "d631b8484f7cf65ecbe56127a65e4ec278d8657d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4681,
+            "modifiedTime": 1532378085511,
+            "changeTime": 1532378085511,
+            "contentHash": "6f2f8d42808b3c04c1a2e7d9b6ba37ea7f862ba7"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 15051,
+            "modifiedTime": 1532378085512,
+            "changeTime": 1532378085512,
+            "contentHash": "322851d6d1ef8caf107caf445de1b6c05caef6bc"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1728,
+            "modifiedTime": 1532378085513,
+            "changeTime": 1532378085513,
+            "contentHash": "40bb27e6354b88edcd694651e69ac817cc859541"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 12247,
+            "modifiedTime": 1532378085514,
+            "changeTime": 1532378085514,
+            "contentHash": "3eae4032e6c554a7c44ec277b10f9fa92de2d6cf"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 984,
+            "modifiedTime": 1532378085515,
+            "changeTime": 1532378085515,
+            "contentHash": "a29fa078df1fc18309a8fa02d5941312e4e41344"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2136,
+            "modifiedTime": 1532378085516,
+            "changeTime": 1532378085516,
+            "contentHash": "06ee26032a159736878decef296cba66ec8d8e25"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2076,
+            "modifiedTime": 1532378085518,
+            "changeTime": 1532378085518,
+            "contentHash": "74dc855d72862a1f62d1c9ec0535f43a229fb1a4"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1767,
+            "modifiedTime": 1532378085519,
+            "changeTime": 1532378085519,
+            "contentHash": "90ef2806b042926ca428c19654b9306555b53429"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 402,
+            "modifiedTime": 1532378085520,
+            "changeTime": 1532378085520,
+            "contentHash": "acbb17c79c96e91d9c04ae4c847b7241ccde01de"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1532378085528,
+            "changeTime": 1532378085528,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaListController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaListController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2629,
+            "modifiedTime": 1532378085529,
+            "changeTime": 1532378085529,
+            "contentHash": "65123546419b4fc72a0ae10d510e3016707cde91"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1943,
+            "modifiedTime": 1532378085530,
+            "changeTime": 1532378085530,
+            "contentHash": "8e2eb35131bdbd9b301380570e4d314a7a9b4d26"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.design",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 733,
+            "modifiedTime": 1532378085531,
+            "changeTime": 1532378085531,
+            "contentHash": "997753e6f1e409391828e12fb95b011d0a252f16"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaListHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaListHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2726,
+            "modifiedTime": 1532378085532,
+            "changeTime": 1532378085532,
+            "contentHash": "a44853680a708692d6bd994b8b9ea6c2142075be"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.cmp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList\\CommunityIdeaList.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6316,
+            "modifiedTime": 1532378085534,
+            "changeTime": 1532378085534,
+            "contentHash": "5aa003d95a0305cf7bee4fb6aa6789f40bf1e236"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1532378085535,
+            "changeTime": 1532378085535,
+            "contentHash": "a496cbc59c623b8b35f800c92b5a74dcb11b6928"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1532378085536,
+            "changeTime": 1532378085536,
+            "contentHash": "36d4cf2f3ee9039bdae4d29a0056923260d7373b"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 225,
+            "modifiedTime": 1532378085538,
+            "changeTime": 1532378085538,
+            "contentHash": "a896fb721c18809f2eab613b5b8c78626ecf6c38"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1532378085539,
+            "changeTime": 1532378085539,
+            "contentHash": "3eb7d547ead7f9611baf1f7ee880973ccb65889c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 235,
+            "modifiedTime": 1532378085541,
+            "changeTime": 1532378085541,
+            "contentHash": "358eb7dc44567717553aa8a216ca76f31c2f4525"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1043,
+            "modifiedTime": 1532378085542,
+            "changeTime": 1532378085542,
+            "contentHash": "2002734bc484699cf8d5f68bb5930de6801e5b3e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 765,
+            "modifiedTime": 1532378085543,
+            "changeTime": 1532378085543,
+            "contentHash": "830df9a34fd83eb9e7916aea616541d67dbc34e6"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.design",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 299,
+            "modifiedTime": 1532378085544,
+            "changeTime": 1532378085544,
+            "contentHash": "e48bbc8023c88f57af56e6aeb270cb83679a8f3d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1433,
+            "modifiedTime": 1532378085545,
+            "changeTime": 1532378085545,
+            "contentHash": "b23bd13dd4e4a91d377bd7dc39826c44fb349ffd"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1743,
+            "modifiedTime": 1532378085547,
+            "changeTime": 1532378085547,
+            "contentHash": "83ef99e93cdcb75639fdd632d2b999fc099d8290"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 230,
+            "modifiedTime": 1532378085549,
+            "changeTime": 1532378085549,
+            "contentHash": "747e512de0af22acc3609dee41a04cb5a9e5e09a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4098,
+            "modifiedTime": 1532378085550,
+            "changeTime": 1532378085550,
+            "contentHash": "8cad4a3886eb1be09b766a10c7a0975c6c1fdf46"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginFormHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginFormHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2872,
+            "modifiedTime": 1532378085551,
+            "changeTime": 1532378085551,
+            "contentHash": "0005d3525bc7e18a24f19df148a2833b4a1ccb5e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginFormController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginFormController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2273,
+            "modifiedTime": 1532378085552,
+            "changeTime": 1532378085552,
+            "contentHash": "8d7257cf23940cfb2865dced83c9f9614a160e6a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.design",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 546,
+            "modifiedTime": 1532378085553,
+            "changeTime": 1532378085553,
+            "contentHash": "9c45d15bab64fa1cfe6466a3cea52b68fbcc787c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm\\loginForm.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1851,
+            "modifiedTime": 1532378085554,
+            "changeTime": 1532378085554,
+            "contentHash": "e863ec165e4c2983bf703eaf60418cf394ead707"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 233,
+            "modifiedTime": 1532378085556,
+            "changeTime": 1532378085556,
+            "contentHash": "b81da582adc7d88daa7ad74676ef6b190be652d3"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1183,
+            "modifiedTime": 1532378085558,
+            "changeTime": 1532378085558,
+            "contentHash": "1ac99d86482ed0f2997f150773d0f867705fe610"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5281,
+            "modifiedTime": 1532378085559,
+            "changeTime": 1532378085559,
+            "contentHash": "3fd8be0700fabe1c7aae4090088fbea18e02c349"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3412,
+            "modifiedTime": 1532378085560,
+            "changeTime": 1532378085560,
+            "contentHash": "eb17e7321358d4e1f50506328593d32deef7e6ff"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2424,
+            "modifiedTime": 1532378085561,
+            "changeTime": 1532378085561,
+            "contentHash": "e579fbb4dae5e6c3e604f900719e1c697908fe02"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.design",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 714,
+            "modifiedTime": 1532378085562,
+            "changeTime": 1532378085562,
+            "contentHash": "c50da00f4f7211befe944a7e800c75a3c31d3c81"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp\\CommunityIdeaApp.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp\\CommunityIdeaApp.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1532378085564,
+            "changeTime": 1532378085564,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp\\CommunityIdeaApp.app",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp\\CommunityIdeaApp.app",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1532378085565,
+            "changeTime": 1532378085565,
+            "contentHash": "2b90f95e2982e61bf74880bfcda543e44b750b2b"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 255,
+            "modifiedTime": 1532378085567,
+            "changeTime": 1532378085567,
+            "contentHash": "1511ac2e106dfebcd3ca38078e2064e270171e12"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteLogin.component",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteLogin.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1254,
+            "modifiedTime": 1532378085568,
+            "changeTime": 1532378085568,
+            "contentHash": "bc708781ea43467adf9e0efda09caf0e4abc96ba"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 264,
+            "modifiedTime": 1532378085571,
+            "changeTime": 1532378085571,
+            "contentHash": "5776d1ca8c89d7cc84599c18b281c42a710dc55d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteHeader.component",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteHeader.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1214,
+            "modifiedTime": 1532378085572,
+            "changeTime": 1532378085572,
+            "contentHash": "0a710387c2669b94a3224b8016f37d0a3fc20948"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 264,
+            "modifiedTime": 1532378085575,
+            "changeTime": 1532378085575,
+            "contentHash": "eefaa45795be1b6bc37a1e4fc2829b8c34c1804d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteFooter.component",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SiteFooter.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 77,
+            "modifiedTime": 1532378085576,
+            "changeTime": 1532378085576,
+            "contentHash": "8c9f2b97bbfa52fdef76795bfea4a72ea95d3258"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 271,
+            "modifiedTime": 1532378085579,
+            "changeTime": 1532378085579,
+            "contentHash": "ffd0557bf9cf0469ec5cd78548ee5324e4657f11"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SitePoweredBy.component",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components\\SitePoweredBy.component",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 532,
+            "modifiedTime": 1532378085580,
+            "changeTime": 1532378085580,
+            "contentHash": "353f26acfff5ff089406bc9b6029fec483f8360f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1532378085582,
+            "changeTime": 1532378085582,
+            "contentHash": "75be1f4e52e5fb5404cf7925cd2b34c694b10f3e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPassword.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPassword.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1734,
+            "modifiedTime": 1532378085583,
+            "changeTime": 1532378085583,
+            "contentHash": "d08010b952d7bc3b249a76a840810bef066c56e8"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1532378085587,
+            "changeTime": 1532378085587,
+            "contentHash": "ee1cd30702a341739ed2be85418d9844aaf0495f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ChangePassword.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ChangePassword.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2253,
+            "modifiedTime": 1532378085588,
+            "changeTime": 1532378085588,
+            "contentHash": "ef99757f7f329769d4297658a07069ba6479259a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1532378085592,
+            "changeTime": 1532378085592,
+            "contentHash": "f708773bde03a3e13f5f11b3123254064ae6efa7"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegister.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegister.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2535,
+            "modifiedTime": 1532378085593,
+            "changeTime": 1532378085593,
+            "contentHash": "41ff51ebecfc21b5b03567851586edbc5fefc6bf"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 375,
+            "modifiedTime": 1532378085596,
+            "changeTime": 1532378085596,
+            "contentHash": "5aa413c669cfbf1dd34cdef2f860fd4b7ebc32f5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\UnderConstruction.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\UnderConstruction.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 819,
+            "modifiedTime": 1532378085597,
+            "changeTime": 1532378085597,
+            "contentHash": "7e44e8eff2115cba3f9494ac0ebac64ba628e919"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 374,
+            "modifiedTime": 1532378085599,
+            "changeTime": 1532378085599,
+            "contentHash": "8bb1663dbadf06e01d2455b1bf916b267fd72dd5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Unauthorized.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Unauthorized.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1728,
+            "modifiedTime": 1532378085600,
+            "changeTime": 1532378085600,
+            "contentHash": "e2d900a0e0685865732acee0c84539a31cb8638e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1532378085602,
+            "changeTime": 1532378085602,
+            "contentHash": "9da5ed06a5f250d08159874f984380817c80f99a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\InMaintenance.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\InMaintenance.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 854,
+            "modifiedTime": 1532378085603,
+            "changeTime": 1532378085603,
+            "contentHash": "660848468f184da3bdb013f9fdf96c6104ec33d6"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 380,
+            "modifiedTime": 1532378085606,
+            "changeTime": 1532378085606,
+            "contentHash": "8315ad6c7baf492dc9900bc0a800ae1eeb130c35"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Exception.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\Exception.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1716,
+            "modifiedTime": 1532378085607,
+            "changeTime": 1532378085607,
+            "contentHash": "830bc42abae82f60204235bc55bb4e817329b8db"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 373,
+            "modifiedTime": 1532378085609,
+            "changeTime": 1532378085609,
+            "contentHash": "e729312c0570efb575e5b5c4f49fcbdafb231156"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\AnswersHome.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\AnswersHome.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 61,
+            "modifiedTime": 1532378085610,
+            "changeTime": 1532378085610,
+            "contentHash": "a82a578935f0381f7ce194fc36f422775d6ab707"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 369,
+            "modifiedTime": 1532378085613,
+            "changeTime": 1532378085613,
+            "contentHash": "f791276e9babac3a9af42648e8e81382cb321089"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\IdeasHome.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\IdeasHome.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 56,
+            "modifiedTime": 1532378085614,
+            "changeTime": 1532378085614,
+            "contentHash": "321994aef1dc6905bd2f9ea1275cef640575796a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLogin.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLogin.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 354,
+            "modifiedTime": 1532378085616,
+            "changeTime": 1532378085616,
+            "contentHash": "7135545bc6e21a69aaf7e8529a780b63aee92f2f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLogin.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLogin.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 143,
+            "modifiedTime": 1532378085617,
+            "changeTime": 1532378085617,
+            "contentHash": "d494d65b30936c6c6cc4ea317ca0be26fefd0899"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 361,
+            "modifiedTime": 1532378085623,
+            "changeTime": 1532378085623,
+            "contentHash": "ebf817320eceb68be87180ec2c06bcd95360e6bb"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\MyProfilePage.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\MyProfilePage.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5352,
+            "modifiedTime": 1532378085625,
+            "changeTime": 1532378085625,
+            "contentHash": "620edf5c2c314699cb5acd8a29ee2897a7f4be9c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesTemplate.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesTemplate.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 365,
+            "modifiedTime": 1532378085627,
+            "changeTime": 1532378085627,
+            "contentHash": "09d3aee511c564e27a1fc66b7d7975995a12e335"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesTemplate.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesTemplate.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 254,
+            "modifiedTime": 1532378085628,
+            "changeTime": 1532378085628,
+            "contentHash": "959a24656384758f13bbd30dfa419f0ca6f0392d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 387,
+            "modifiedTime": 1532378085631,
+            "changeTime": 1532378085631,
+            "contentHash": "28469703a62f82320225fe0e0811966f377f525a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1336,
+            "modifiedTime": 1532378085631,
+            "changeTime": 1532378085631,
+            "contentHash": "e1c4950e6f20b5744e83b77652be25196945a53b"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 387,
+            "modifiedTime": 1532378085634,
+            "changeTime": 1532378085634,
+            "contentHash": "c7c0061cb16310cdb7b888e4bd6b1bd3ae205670"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1315,
+            "modifiedTime": 1532378085635,
+            "changeTime": 1532378085635,
+            "contentHash": "b36e48b39e4d3b8b31a82c9c5eee2ffffc194ee3"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 352,
+            "modifiedTime": 1532378085637,
+            "changeTime": 1532378085637,
+            "contentHash": "a41c1d4580044228bd1a020c3d6335640e414395"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteLogin.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteLogin.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1178,
+            "modifiedTime": 1532378085638,
+            "changeTime": 1532378085638,
+            "contentHash": "cbc0628ee0ca131ce53c251ae3221ba5048f2020"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1532378085641,
+            "changeTime": 1532378085641,
+            "contentHash": "364f5df2a811379e5b364fb614ed93cc32d98e82"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 746,
+            "modifiedTime": 1532378085642,
+            "changeTime": 1532378085642,
+            "contentHash": "af8b65b80f92aa12ee84f138858b6b1253dde9f8"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1532378085645,
+            "changeTime": 1532378085645,
+            "contentHash": "7c50b189cde0e9ed9cf2241fea3ea45610b3ce28"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\FileNotFound.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\FileNotFound.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1667,
+            "modifiedTime": 1532378085646,
+            "changeTime": 1532378085646,
+            "contentHash": "5e6c03f7313422001a3df2c492db52fabdc10212"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 388,
+            "modifiedTime": 1532378085648,
+            "changeTime": 1532378085648,
+            "contentHash": "8c3d4ea924dbea9ec25aa887059fd12f181d49ce"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1369,
+            "modifiedTime": 1532378085649,
+            "changeTime": 1532378085649,
+            "contentHash": "9bd974d33dbf89a831056f0b8e84b9b425e7df18"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 370,
+            "modifiedTime": 1532378085652,
+            "changeTime": 1532378085652,
+            "contentHash": "56f5ef7a941946bb301f8a4a33ae15541c4fa6b2"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteTemplate.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\SiteTemplate.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 363,
+            "modifiedTime": 1532378085653,
+            "changeTime": 1532378085653,
+            "contentHash": "0795cba97d90e8e6f4511bdc6845b4f6ba593a49"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 368,
+            "modifiedTime": 1532378085655,
+            "changeTime": 1532378085655,
+            "contentHash": "470c9c36f3c0436e85d26d18b2017341e4d2c069"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1835,
+            "modifiedTime": 1532378085657,
+            "changeTime": 1532378085657,
+            "contentHash": "8740a361c26a708331f96b5d59b82154d2efcf9c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 392,
+            "modifiedTime": 1532378085659,
+            "changeTime": 1532378085659,
+            "contentHash": "024a1c6f610ca01b6b87e72fad6aeb1d0151b080"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 918,
+            "modifiedTime": 1532378085660,
+            "changeTime": 1532378085660,
+            "contentHash": "ee21ef14d08dc898cc2f7c14b009b44e39843047"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLanding.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLanding.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 358,
+            "modifiedTime": 1532378085662,
+            "changeTime": 1532378085662,
+            "contentHash": "0919bd8c32914ff95a878d2c5a0fd110385bd186"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLanding.page",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages\\CommunitiesLanding.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 159,
+            "modifiedTime": 1532378085663,
+            "changeTime": 1532378085663,
+            "contentHash": "f4f56310b743abd6983739cb9fb38a89ed8bd5d9"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085665,
+            "changeTime": 1532378085665,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 795,
+            "modifiedTime": 1532378085666,
+            "changeTime": 1532378085666,
+            "contentHash": "9fc17f3ba0a097f66fc1467c82c8e1d22398b48f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085668,
+            "changeTime": 1532378085668,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2805,
+            "modifiedTime": 1532378085669,
+            "changeTime": 1532378085669,
+            "contentHash": "68250b28cbd25dc5afb432323903534767578a58"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085671,
+            "changeTime": 1532378085671,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 396,
+            "modifiedTime": 1532378085672,
+            "changeTime": 1532378085672,
+            "contentHash": "cb9e706e4f2584adcf80c77bf7fd48a140f907db"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085674,
+            "changeTime": 1532378085674,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 369,
+            "modifiedTime": 1532378085675,
+            "changeTime": 1532378085675,
+            "contentHash": "f0aa4e4a73ec760302173389f42991266a807010"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085678,
+            "changeTime": 1532378085678,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 469,
+            "modifiedTime": 1532378085679,
+            "changeTime": 1532378085679,
+            "contentHash": "e91f7457a25b5da77131fe41c8f29c04bc7867c2"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085680,
+            "changeTime": 1532378085680,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5572,
+            "modifiedTime": 1532378085682,
+            "changeTime": 1532378085682,
+            "contentHash": "ed5ee92fa1fa56d090e83ef0e235b5bf6c188fe7"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085684,
+            "changeTime": 1532378085684,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 877,
+            "modifiedTime": 1532378085685,
+            "changeTime": 1532378085685,
+            "contentHash": "84070006a2c57644fd7d707525e9297ec15f91a0"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085687,
+            "changeTime": 1532378085687,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1532378085687,
+            "changeTime": 1532378085687,
+            "contentHash": "d699d2c76978ccad1fc33fcd78ed17c360747337"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085690,
+            "changeTime": 1532378085690,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1079,
+            "modifiedTime": 1532378085691,
+            "changeTime": 1532378085691,
+            "contentHash": "e1e93bc0b3687bf1d952419a750eb1c08887706f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085693,
+            "changeTime": 1532378085693,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1332,
+            "modifiedTime": 1532378085693,
+            "changeTime": 1532378085693,
+            "contentHash": "21d44e671389d01c2035cb54f2a3b22777492713"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085696,
+            "changeTime": 1532378085696,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1038,
+            "modifiedTime": 1532378085697,
+            "changeTime": 1532378085697,
+            "contentHash": "326dc096dacead23bcce832cafa8046eeff5821c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085699,
+            "changeTime": 1532378085699,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningLoginFormController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1972,
+            "modifiedTime": 1532378085700,
+            "changeTime": 1532378085700,
+            "contentHash": "f1fd99eb82c4744783af85a86be464c1f8e321ad"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085702,
+            "changeTime": 1532378085702,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6197,
+            "modifiedTime": 1532378085704,
+            "changeTime": 1532378085704,
+            "contentHash": "0078ae1357b38fec34ceffb97e7249e51daa04e6"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085706,
+            "changeTime": 1532378085706,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 12938,
+            "modifiedTime": 1532378085707,
+            "changeTime": 1532378085707,
+            "contentHash": "76b5d7069259783618eb587ecb98a1d62c88585c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController_Test.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController_Test.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085717,
+            "changeTime": 1532378085717,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController_Test.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunityIdeaController_Test.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2411,
+            "modifiedTime": 1532378085718,
+            "changeTime": 1532378085718,
+            "contentHash": "53fd4deb3fde58d2da480b24498f34bd8ca71ca7"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085720,
+            "changeTime": 1532378085720,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 434,
+            "modifiedTime": 1532378085721,
+            "changeTime": 1532378085721,
+            "contentHash": "45bce0841ca7e53e9891170118879727980b051a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085723,
+            "changeTime": 1532378085723,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 558,
+            "modifiedTime": 1532378085724,
+            "changeTime": 1532378085724,
+            "contentHash": "676ee62c09240e726b685da56266e2201bf46664"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085726,
+            "changeTime": 1532378085726,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 467,
+            "modifiedTime": 1532378085726,
+            "changeTime": 1532378085726,
+            "contentHash": "769eaed52f3c934b7ad9b57adcb55a922c257168"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085729,
+            "changeTime": 1532378085729,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 642,
+            "modifiedTime": 1532378085729,
+            "changeTime": 1532378085729,
+            "contentHash": "0bb3c4ec096aa5dd33d79abbb693eb98b3e899a0"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085732,
+            "changeTime": 1532378085732,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2077,
+            "modifiedTime": 1532378085733,
+            "changeTime": 1532378085733,
+            "contentHash": "19e473741cd0e4047e59345c952d815aa05e1ac2"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085735,
+            "changeTime": 1532378085735,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 721,
+            "modifiedTime": 1532378085736,
+            "changeTime": 1532378085736,
+            "contentHash": "00a06a0620a60d0ee0118431a169b4ec3ba79891"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085738,
+            "changeTime": 1532378085738,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 480,
+            "modifiedTime": 1532378085738,
+            "changeTime": 1532378085738,
+            "contentHash": "f90081d88c1b56f4db006bf0c9022a1b23126145"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085740,
+            "changeTime": 1532378085740,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2792,
+            "modifiedTime": 1532378085741,
+            "changeTime": 1532378085741,
+            "contentHash": "3dad7650b8dd8e6e57710fec687bf1bb5eff80bd"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085743,
+            "changeTime": 1532378085743,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 516,
+            "modifiedTime": 1532378085744,
+            "changeTime": 1532378085744,
+            "contentHash": "cf9f2476b780b0f6cf19e569521fe72388a25bf6"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085747,
+            "changeTime": 1532378085747,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 506,
+            "modifiedTime": 1532378085747,
+            "changeTime": 1532378085747,
+            "contentHash": "66dcdb35e263e3858438516c272143f39594ab6b"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532378085749,
+            "changeTime": 1532378085749,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1584,
+            "modifiedTime": 1532378085750,
+            "changeTime": 1532378085750,
+            "contentHash": "2e72ea98db541366419984e2a8878f467de5a3e5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\profiles\\Ideas Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\profiles\\Ideas Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7421,
+            "modifiedTime": 1532378085758,
+            "changeTime": 1532378085758,
+            "contentHash": "055a50750c0ef47736466eb6c4ef1ebb377acfbc"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\sites\\Ideas.site-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\sites\\Ideas.site-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1527,
+            "modifiedTime": 1532378085761,
+            "changeTime": 1532378085761,
+            "contentHash": "a0c1ec4cc72f1eab0c016c8996a088b83a61844b"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\settings\\Ideas.settings-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\settings\\Ideas.settings-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 342,
+            "modifiedTime": 1532378085762,
+            "changeTime": 1532378085762,
+            "contentHash": "08602a8052b006e4ed668e0d14486a755367acb5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\communities\\Customer Manager.community-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\communities\\Customer Manager.community-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 707,
+            "modifiedTime": 1532378085764,
+            "changeTime": 1532378085764,
+            "contentHash": "a7b68700485cf89683c39020aa3703e61810b7ea"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites\\Ideas1.site-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites\\Ideas1.site-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 186,
+            "modifiedTime": 1532378085766,
+            "changeTime": 1532378085766,
+            "contentHash": "d7602a4d259c85ab5d5314dada0d69622188e1f3"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites\\Ideas1.site",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites\\Ideas1.site",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 71127,
+            "modifiedTime": 1532378085767,
+            "changeTime": 1532378085767,
+            "contentHash": "929664a65857963200462752f490d99ef996ab8e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networks\\Ideas.network-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networks\\Ideas.network-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2828,
+            "modifiedTime": 1532378085769,
+            "changeTime": 1532378085769,
+            "contentHash": "39ef3d8d8f7291bdcc1ed8ac2aea814d483ebfd4"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding\\cbIdeas.networkBranding-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding\\cbIdeas.networkBranding-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 626,
+            "modifiedTime": 1532378085771,
+            "changeTime": 1532378085771,
+            "contentHash": "8cd368d1b245e3b3ca3278aced7d8b885eedce80"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding\\cbIdeas.networkBranding",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding\\cbIdeas.networkBranding",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2,
+            "modifiedTime": 1532378085772,
+            "changeTime": 1532378085772,
+            "contentHash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085502,
+            "changeTime": 1532378085502,
+            "contentHash": "94b65d41e40870e77f72cba72966f3bed8bd0800"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085518,
+            "changeTime": 1532378085518,
+            "contentHash": "ca36f65b7f8888bd595c26bba98c091a986284ab"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\staticresources\\SiteSamples",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085519,
+            "changeTime": 1532378085519,
+            "contentHash": "bfc7b578cefd1230c8d14deafa0e6ea3053edc7e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaList",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085533,
+            "changeTime": 1532378085533,
+            "contentHash": "49fa96f8c8dff379e39670b241828eac12d2bebc"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setStartUrl",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085536,
+            "changeTime": 1532378085536,
+            "contentHash": "932a38c2997891d2654c0893c0e1a4288e7c15ff"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\setExpId",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085538,
+            "changeTime": 1532378085538,
+            "contentHash": "11feaa7814348a87d18c4891772d2ec32891466d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\forgotPassword",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085547,
+            "changeTime": 1532378085547,
+            "contentHash": "6df7eaba9112e9d3d73be83929076ecdb37c6e02"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\loginForm",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085554,
+            "changeTime": 1532378085554,
+            "contentHash": "fd718632c89a370e59634cc3aa2c6f67e9702b0c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\selfRegister",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085562,
+            "changeTime": 1532378085562,
+            "contentHash": "8df7cfb5f48f3f00fcd4dd27c869c4cfdccd250c"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\aura\\CommunityIdeaApp",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085565,
+            "changeTime": 1532378085565,
+            "contentHash": "621707a8974de414737ab493d8dc2adc63079c21"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\components",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085579,
+            "changeTime": 1532378085579,
+            "contentHash": "7e3b47b6f015d41da2682d23c08c6bd410b8f4bb"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085663,
+            "changeTime": 1532378085663,
+            "contentHash": "54a2cf26a57a9ce2c57e7c0f9e4e09990ad938cc"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085750,
+            "changeTime": 1532378085750,
+            "contentHash": "12a1d6a4eaf93fe6b54da712feed09aa4f0f9b31"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\profiles",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085757,
+            "changeTime": 1532378085757,
+            "contentHash": "cd7c3fe3ca32390e2b230d19ea399710647f8d33"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\sites",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\sites",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085760,
+            "changeTime": 1532378085760,
+            "contentHash": "865c89eb3826b5d7dbedb65a6d0b84bbf6240094"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\settings",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085762,
+            "changeTime": 1532378085762,
+            "contentHash": "0b12a0043e5062d19612d3641c269bce2ca1047a"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\communities",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\communities",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085764,
+            "changeTime": 1532378085764,
+            "contentHash": "70b815fc60bf796991882f08d2d812f478bbcdf9"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\siteDotComSites",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085766,
+            "changeTime": 1532378085766,
+            "contentHash": "4a069e4a3a0f52c0ac7a8fdf377aa2d6dba8fa44"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networks",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networks",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085769,
+            "changeTime": 1532378085769,
+            "contentHash": "d3b305faa949ebc78abab8dba91684a45da9d493"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProject\\force-app\\main\\default\\networkBranding",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1532378085772,
+            "changeTime": 1532378085772,
+            "contentHash": "ff2ac8300f7cd856f138b9bc1074e65368e48400"
+        }
+    ]
+]
