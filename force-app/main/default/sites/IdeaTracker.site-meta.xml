@@ -17,12 +17,12 @@
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
     <indexPage>CommunitiesLanding</indexPage>
-    <masterLabel>Ideas</masterLabel>
+    <masterLabel>IdeaTracker</masterLabel>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-bxppx7zkvnfj@example.com</siteAdmin>
+    <siteAdmin>test-xgfns6mjmq2x@example.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>power-momentum-5920-dev-ed-164c8aa3a65</subdomain>
+    <subdomain>innovation-saas-6242-dev-ed-164d01a3456</subdomain>
 </CustomSite>

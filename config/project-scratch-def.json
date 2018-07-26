@@ -1,8 +1,8 @@
 {
     "orgName": "Demo Company",
     "edition": "Developer",
-    "features": ["Communities"],
+    "features": ["Communities","Sites"],
     "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled","NetworksEnabled"]
+        "enabled": ["S1DesktopEnabled","NetworksEnabled","IsChatterProfileEnabled","IsIdeaThemesEnabled","IsIdeasEnabled","IsIdeasReputationEnabled"]
     }
 }

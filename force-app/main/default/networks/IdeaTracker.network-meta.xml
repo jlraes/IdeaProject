@@ -6,7 +6,7 @@
     <communityRoles/>
     <disableReputationRecordConversations>true</disableReputationRecordConversations>
     <emailSenderAddress>jean-luc.raes@realdolmen.com</emailSenderAddress>
-    <emailSenderName>Ideas</emailSenderName>
+    <emailSenderName>IdeaTracker</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
     <enableGuestChatter>false</enableGuestChatter>
@@ -43,10 +43,10 @@
         <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
-    <picassoSite>Ideas1</picassoSite>
+    <picassoSite>IdeaTracker1</picassoSite>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
-    <site>Ideas</site>
+    <site>IdeaTracker</site>
     <status>UnderConstruction</status>
     <tabs>
         <defaultTab>home</defaultTab>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>360 Online</fullName>
+        <default>false</default>
+        <label>360 Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>360 Connect</fullName>
+        <default>false</default>
+        <label>360 Connect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>360 Activate</fullName>
+        <default>false</default>
+        <label>360 Activate</label>
+    </standardValue>
+</StandardValueSet>
