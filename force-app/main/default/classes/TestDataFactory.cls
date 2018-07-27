@@ -2,7 +2,7 @@ public class TestDataFactory {
 //SELECT Id, IsDeleted, ParentId, Type, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp FROM Vote where ParentId='087560000008TVWAA2'
 // Type = Down or Type = Up
 // 
-// PROJECT 1 : CommunitIdeaApp => Preview (also in RDJLR sandbox ?)
+// PROJECT 1 : CommunitIdeaApp => Preview (? Origin ?)
 // PROJECT 2 : Tab Idea (permissionset to be added => can tab visibility be set here ?)
     
     
