@@ -7,7 +7,11 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Idea Tracker</label>
     <tabSettings>
+        <tab>Ideas</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Idea</tab>
-        <visibility>Available</visibility>
+        <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
