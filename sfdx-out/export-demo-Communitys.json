@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Community",
+                "referenceId": "CommunityRef1"
+            },
+            "Name": "Tracker Ideas",
+            "IsActive": true,
+            "IsPublished": false
+        }
+    ]
+}

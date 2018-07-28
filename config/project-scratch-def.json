@@ -3,6 +3,8 @@
     "edition": "Developer",
     "features": ["Communities","Sites"],
     "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled","NetworksEnabled","IsChatterProfileEnabled","IsIdeaThemesEnabled","IsIdeasEnabled","IsIdeasReputationEnabled"]
+        "enabled": ["S1DesktopEnabled","NetworksEnabled","IsChatterProfileEnabled","IsIdeaThemesEnabled","IsIdeasEnabled","IsIdeasReputationEnabled"],
+        "disabled": ["S1EncryptedStoragePref2"]
+
     }
 }

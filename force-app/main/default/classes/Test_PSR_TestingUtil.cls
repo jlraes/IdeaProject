@@ -22,8 +22,8 @@ public class Test_PSR_TestingUtil {
         User u = new User(
             ProfileId = [SELECT Id FROM Profile WHERE Name = 'System Administrator'].Id,
             LastName = 'last',
-            Email = 'puser000@example.com',
-            Username = 'puser000@amamama.com' + System.currentTimeMillis(),
+            Email = 'p.user000@example.com',
+            Username = 'p.user000@dummy.example.com' + System.currentTimeMillis(),
             CompanyName = 'TEST',
             Title = 'title',
             Alias = 'alias',
@@ -42,6 +42,16 @@ public class Test_PSR_TestingUtil {
         List<Community> ListCommunities = [SELECT Id, Name, Description, NetworkId FROM Community where Name = 'Tracker Ideas' ];
         if (ListCommunities.size() > 0) {
             id = ListCommunities[0].Id;
+        }
+        return id;   
+    }
+
+    public static Id getPermissionSet() {
+        Id id ;
+        
+        List<PermissionSet> ListPermissionSets = [SELECT Id, Name, Label FROM PermissionSet where Name = 'Idea_Tracker' ];
+        if (ListPermissionSets.size() > 0) {
+            id = ListPermissionSets[0].Id;
         }
         return id;   
     }

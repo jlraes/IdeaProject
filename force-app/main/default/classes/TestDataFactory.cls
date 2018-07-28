@@ -19,6 +19,18 @@ public class TestDataFactory {
         List<User> ListUsers = new List<User>();
         ListUsers.add(Test_PSR_TestingUtil.createUser());
         Database.insert(ListUsers);
+		assignPermissionSet(ListUsers);
+        
+    }
+    
+    private static void assignPermissionSet(List<User> ListUsers){
+        Id PermissionSetId = Test_PSR_TestingUtil.getPermissionSet();
+		List<PermissionSetAssignment> ListPermissionSetAssignment = new List<PermissionSetAssignment>();        
+        for (User user : ListUsers) {
+			PermissionSetAssignment psa = new PermissionSetAssignment(PermissionSetId = PermissionSetId, AssigneeId = user.Id);
+            ListPermissionSetAssignment.add(psa);
+        }
+        Database.insert(ListPermissionSetAssignment); 
     }
     
     public static void createListIdeas(Integer NumberOfIdeas){

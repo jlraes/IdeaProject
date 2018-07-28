@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Community",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export-demo-Communitys.json"
+        ]
+    }
+]
