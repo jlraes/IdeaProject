@@ -1,3 +1,53 @@
 <aura:component >
-    <aura:attribute name="idea" type="Idea" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="IdeaRecord" type="Idea" />
+    <div class="slds-truncate">
+        <a onclick="{!c.viewIdea}" id="{!v.IdeaRecord.Id}"> {!v.IdeaRecord.Title} </a>
+    </div>
+    <ui:outputRichText value="{!v.IdeaRecord.Body}" class="slds-output" />
+    <div id="{!v.IdeaRecord.Id}" >
+        <lightning:pill label="{!v.IdeaRecord.NumComments}" >
+            <aura:set attribute="media">
+                <lightning:icon iconName="utility:comments"  alternativeText="comments"/>
+            </aura:set>
+        </lightning:pill><a href="javascript:void(0);" > Comments >> </a>
+        Posted By <a  href="javascript:void(0);" > {!v.IdeaRecord.CreatorName} </a> on <ui:outputDateTime value="{!v.IdeaRecord.CreatedDate}"/>
+    </div>
+    <br/><br/>
+    
+   <!-- SECOND OPTION --> 
+    <li class="list-group-item">
+        <div class="voteForIdea">
+            <!-- TODO: Refactor voting buttons into a child component -->
+            <aura:if isTrue="{!v.IdeaRecord.Votes[0].Type != null}">
+                <!-- GENERAL RULES FOR IDEA VOTING: -->
+                <!-- 
+        1. If you create an idea, you automatically vote the idea up.
+        2. If someone else creates the idea, you can vote it up or vote it down once. You can change your vote
+       -->
+                <aura:if isTrue="{!v.IdeaRecord.Votes[0].Type == 'Up'}">
+                    <img width="30" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promoted.png'}" /> &nbsp;
+                    <!-- img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.demoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demote.png'}" / -->
+                    <aura:set attribute="else">
+                        <img width="30" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demoted.png'}" />&nbsp;
+                        <!-- img width="30" class="promoteDemoteIdea" onclick="{!c.promoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promote.png'}" / -->
+                    </aura:set>
+                </aura:if>
+                <aura:set attribute="else">
+                    <img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.promoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promote.png'}" /> &nbsp;
+                    <img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.demoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demote.png'}" />
+                </aura:set>
+            </aura:if>
+        </div>
+        <a href="{! $SfdcSite.pathPrefix + '/s/' + v.ideaDetailPath + v.IdeaRecord.Id }">
+            <h4 class='prodname'>{!v.IdeaRecord.Title}</h4>
+        </a>
+        <div class='proddescription'>Points: <span class="bold">{!v.IdeaRecord.VoteTotal}</span></div>
+        <!-- div class='ideastatus'>Status: {!v.IdeaRecord.Status}</div -->
+        <div class='creatorPublisher'>Posted by <span class="bold">{!v.IdeaRecord.CreatorName} </span> &nbsp; on <span class="bold"><ui:outputDateTime value="{!v.IdeaRecord.CreatedDate}"/></span></div>
+        <div class='ideanumcomments'><span class="bold">{!v.IdeaRecord.NumComments}</span> Comments</div>
+        <div class='ideacategories'>Posted to <span class="bold">{!v.IdeaRecord.Categories}</span></div>
+    </li>
+    
+    
 </aura:component>

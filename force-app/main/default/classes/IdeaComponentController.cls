@@ -13,16 +13,9 @@ public with sharing class IdeaComponentController {
             
         }
         System.debug('CommunityId '+CommunityId);
-        if(Schema.SObjectType.Idea.isQueryable() && 
-           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
-           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
-           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible()){
-               ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+        if(hasAccess()){
+               //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+            	ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
            }
         return ideasList;
     }
@@ -30,16 +23,9 @@ public with sharing class IdeaComponentController {
     @AuraEnabled
     public static List<Idea> AllIdeasByCommunityId(String CommunityId){
         List<Idea> ideasList = new List<Idea>();
-        if(Schema.SObjectType.Idea.isQueryable() && 
-           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
-           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
-           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible()){
-               ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+        if(hasAccess()){
+               //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+               ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
            }
         return ideasList;
     }
@@ -56,16 +42,9 @@ public with sharing class IdeaComponentController {
             if(idealst!=null && idealst.size()>0) CommunityId = idealst[0].id;
         }
         
-        if(Schema.SObjectType.Idea.isQueryable() && 
-           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
-           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
-           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible()){
-               ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where VoteTotal>=150 AND CommunityId=:CommunityId LIMIT 50000];
+        if(hasAccess()){
+            //   ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where VoteTotal>=150 AND CommunityId=:CommunityId LIMIT 50000];
+            ideasList = IdeaSelector.AllTopIdeas(CommunityId);
            }
         
         return ideasList;
@@ -98,16 +77,9 @@ public with sharing class IdeaComponentController {
             if(idealst!=null && idealst.size()>0) CommunityId = idealst[0].id;
         }
         
-        if(Schema.SObjectType.Idea.isQueryable() && 
-           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
-           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
-           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible()){
-               ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, CreatedDate From Idea Where LastViewedDate=THIS_WEEK AND CommunityId=:CommunityId LIMIT 50000];
+        if(hasAccess()){
+              // ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, CreatedDate From Idea Where LastViewedDate=THIS_WEEK AND CommunityId=:CommunityId LIMIT 50000];
+            ideasList = IdeaSelector.AllRecentIdeas(CommunityId);
            } 
         
         return ideasList;
@@ -146,5 +118,16 @@ public with sharing class IdeaComponentController {
                }
         }
         return ideaCommentList;
+    }
+    private static boolean hasAccess(){
+        return Schema.SObjectType.Idea.isQueryable() && 
+           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
+           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
+           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
+           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
+           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
+           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
+           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
+           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible();
     }
 }

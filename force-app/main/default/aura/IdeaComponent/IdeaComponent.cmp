@@ -76,20 +76,12 @@
                                           onclick="{!c.openModal}" />
                     </center><br/>
                     <aura:iteration items="{!v.ideaPaginationList}" var="obj" indexVar="i">
+                        <!-- TEMP-->
                         <div class="slds-truncate">
-                            <a onclick="{!c.viewIdea}" id="{!obj.Id}"> {!obj.Title} </a>
-                        </div>
-                        
-                        <ui:outputRichText value="{!obj.Body}" class="slds-output" />
-                        <div id="{!obj.Id}" >
-                            <lightning:pill label="{!obj.NumComments}" >
-                                <aura:set attribute="media">
-                                    <lightning:icon iconName="utility:comments"  alternativeText="comments"/>
-                                </aura:set>
-                            </lightning:pill><a href="javascript:void(0);" > Comments >> </a>
-                            Posted By <a  href="javascript:void(0);" > {!obj.CreatorName} </a> on <ui:outputDateTime value="{!obj.CreatedDate}"/>
-                        </div>
-                        <br/><br/>
+        					<a onclick="{!c.viewIdea}" id="{!obj.Id}"> {!obj.Title} </a>
+    						</div>
+                        <!-- TEMP-->
+                        <c:IdeaItem IdeaRecord="{!obj}"/>
                     </aura:iteration>
                     <lightning:buttonGroup >
                         <lightning:button label="Previous" disabled="{!v.startPage == 0}"  onclick="{!c.previous}" class="slds-button slds-button_brand"/>
@@ -109,19 +101,9 @@
                                           onclick="{!c.openModal}" />
                     </center><br/>
                     <aura:iteration items="{!v.ideaPaginationList}" var="obj" indexVar="i">
-                        <div class="slds-truncate">
-                            <a onclick="{!c.viewIdea}" id="{!obj.Id}"> {!obj.Title} </a>
-                        </div>
-                        <ui:outputRichText value="{!obj.Body}" class="slds-output" />
-                        <div id="{!obj.Id}" >
-                            <lightning:pill label="{!obj.NumComments}" >
-                                <aura:set attribute="media">
-                                    <lightning:icon iconName="utility:comments"  alternativeText="comments"/>
-                                </aura:set>
-                            </lightning:pill>Comments >>
-                            Posted By <a href="javascript:void(0);" > {!obj.CreatorName} </a> on <ui:outputDateTime value="{!obj.CreatedDate}"/>
-                        </div>
-                        <br/><br/>
+                        <c:IdeaItem IdeaRecord="{!obj}"/>
+                        <!-- detail open <c:CommunityIdeaDetail ideaId="{!obj.Id}"/>-->
+
                     </aura:iteration>
                     <lightning:buttonGroup >
                         <lightning:button label="Previous" disabled="{!v.startPage == 0}"  onclick="{!c.previous}" class="slds-button slds-button_brand"/>
@@ -146,19 +128,7 @@
                         </ui:message>
                     </aura:if>
                     <aura:iteration items="{!v.ideaPaginationList}" var="obj" indexVar="i">
-                        <div class="slds-truncate">
-                            <a onclick="{!c.viewIdea}" id="{!obj.Id}"> {!obj.Title} </a>
-                        </div>
-                        <ui:outputRichText value="{!obj.Body}" class="slds-output" />
-                        <div id="{!obj.Id}" >
-                            <lightning:pill label="{!obj.NumComments}" >
-                                <aura:set attribute="media">
-                                    <lightning:icon iconName="utility:comments"  alternativeText="comments"/>
-                                </aura:set>
-                            </lightning:pill><a href="javascript:void(0);" > Comments >> </a>
-                            Posted By <a  href="javascript:void(0);" > {!obj.CreatorName} </a> on <ui:outputDateTime value="{!obj.CreatedDate}"/>
-                        </div>
-                        <br/><br/>
+                        <c:IdeaItem IdeaRecord="{!obj}"/>
                     </aura:iteration>
                     <lightning:buttonGroup >
                         <lightning:button label="Previous" disabled="{!v.startPage == 0}"  onclick="{!c.previous}" class="slds-button slds-button_brand"/>

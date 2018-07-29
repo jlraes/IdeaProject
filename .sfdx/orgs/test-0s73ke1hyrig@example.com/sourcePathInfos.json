@@ -92,14 +92,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura",
         {
-            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1532808353669,
             "changeTime": 1532808353669,
-            "contentHash": "6d6b4901d67f7c2c39f9ffa512bc18e053cc1555"
+            "contentHash": "6d6b4901d67f7c2c39f9ffa512bc18e053cc1555",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -870,16 +870,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponent.cmp",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponent.cmp",
             "isDirectory": false,
-            "size": 14338,
-            "modifiedTime": 1532463453310,
-            "changeTime": 1532463453310,
-            "contentHash": "7d17b3c763d4e4d0fbb75d99b9553eec6adcd52b",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 12137,
+            "modifiedTime": 1532897762185,
+            "changeTime": 1532897762185,
+            "contentHash": "805743eb5e51163df50c4135529ce56edee54049"
         }
     ],
     [
@@ -1335,16 +1333,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1532706012460,
-            "changeTime": 1532678530998,
-            "contentHash": "62334f96bcf0b61354aa5d5c857afb8afce386a2",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1532897762204,
+            "changeTime": 1532897762204,
+            "contentHash": "672cfa5c5de7f150033fefd16915b50a6efb7b40"
         }
     ],
     [
@@ -1830,16 +1826,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaComponentController.cls",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaComponentController.cls",
             "isDirectory": false,
-            "size": 8558,
-            "modifiedTime": 1532463453288,
-            "changeTime": 1532463453288,
-            "contentHash": "0bfb5508bf5278efc6ce04f0368a304b04799a0e",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 7182,
+            "modifiedTime": 1532897762205,
+            "changeTime": 1532897762205,
+            "contentHash": "d9e487840a11facd46c6462f038991f238ac5f53"
         }
     ],
     [
@@ -2248,14 +2242,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\Test_PSR_TestingUtil.cls",
         {
-            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\Test_PSR_TestingUtil.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2302,
             "modifiedTime": 1532808353677,
             "changeTime": 1532808353677,
-            "contentHash": "9afcfbf30706c0a26b166f5610c72a9acf9de7e9"
+            "contentHash": "9afcfbf30706c0a26b166f5610c72a9acf9de7e9",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3896,14 +3890,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItem.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItem.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1532808353671,
             "changeTime": 1532808353671,
-            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -3913,10 +3907,10 @@
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItem.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 82,
-            "modifiedTime": 1532808353673,
-            "changeTime": 1532808353673,
-            "contentHash": "1ad0a2b69665225149f42e885a6a7156fca3598d"
+            "size": 3493,
+            "modifiedTime": 1532897762194,
+            "changeTime": 1532897762194,
+            "contentHash": "150955123243ccef3539cca58ff3515d327868dc"
         }
     ],
     [
@@ -3927,9 +3921,48 @@
             "isDirectory": true,
             "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1532808353673,
-            "changeTime": 1532808353673,
-            "contentHash": "55f1c35572b344dd96d067f8269055202a8c5ee9"
+            "modifiedTime": 1532897762193,
+            "changeTime": 1532897762193,
+            "contentHash": "42468ef44fe30a19e46b73cf26c949ae37649a3d"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItemController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItemController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 168,
+            "modifiedTime": 1532897762190,
+            "changeTime": 1532897762190,
+            "contentHash": "66e3f94fd26c680f888469ca415a0ab3f925aac5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1532897762196,
+            "changeTime": 1532897762196,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2499,
+            "modifiedTime": 1532897762198,
+            "changeTime": 1532897762198,
+            "contentHash": "2468d84960e3128fda48adbb61714ccb09b492c8"
         }
     ]
 ]
