@@ -203,8 +203,13 @@
         
         component.set('v.ideaPaginationList', PaginationIdealist);
     },
-    displayIdea : function(component, event){
+    displayIdeaOld : function(component, event){
         var idx = event.target.id;
+        this.displayIdea(component, idx);
+    },
+    displayIdea : function(component, IdeaRecordId){
+        //var idx = event.target.id;
+        var idx = IdeaRecordId;
         console.log('Clicked Idea Id =>'+idx+'  '+component.get('v.CommunitySite'));
         component.set("v.ideaId",idx);
         component.set("v.navigate",true);

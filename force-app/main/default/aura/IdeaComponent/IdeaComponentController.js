@@ -1,5 +1,6 @@
 ({
     doInit : function(component, event, helper) {
+      	console.log('IdeaComponentController - doInit ...');
         var action = component.get('c.CommunityForIdea');
         component.set('v.isSending',true);
         action.setCallback(this,function(response){
@@ -78,7 +79,7 @@
         helper.updateIdeaList(component, communityId);
     },
     refreshPage : function(component, event, helper){ 
-        console.log('event fired');
+        console.log('IdeaComponentController - refreshPage - c:CreateIdeaEvent event fired');
         helper.closeModal(component, event);
         $A.get('e.force:refreshView').fire();
     },
@@ -88,7 +89,13 @@
     next : function(component, event, helper){ 
         helper.next(component, event);
     },
-    viewIdea : function(component, event, helper){ 
-        helper.displayIdea(component, event);
+    handleViewEvent : function(component, event, helper){
+        console.log('IdeaComponentController - handleViewEvent - event received. About to respond with action..');
+        var IdeaRecord = event.getParam("IdeaRecord");
+        helper.displayIdea(component, IdeaRecord.Id);
     },
+    viewIdea : function(component, event, helper){ 
+        console.log('IdeaComponentController - viewIdea - about to displayIdeaOld ');
+        helper.displayIdeaOld(component, event);
+    }
 })

@@ -21,7 +21,8 @@
     <!-- Attribute Declration For Pagination End-->
     
     <aura:handler name='init' value="{!this}" action="{!c.doInit}" />
-    <aura:handler event="c:CreateIdeaEvent" action="{!c.refreshPage}"/>
+    <aura:handler name="CreateIdeaEvent" event="c:CreateIdeaEvent" action="{!c.refreshPage}"/>
+    <aura:handler name="ViewIdeaEvent" event="c:ViewIdeaEvent" action="{!c.handleViewEvent}"/>
     
     <!-- For navigation to Idea View Component -->
     <lightning:navigation aura:id="navService"/>
@@ -76,11 +77,6 @@
                                           onclick="{!c.openModal}" />
                     </center><br/>
                     <aura:iteration items="{!v.ideaPaginationList}" var="obj" indexVar="i">
-                        <!-- TEMP-->
-                        <div class="slds-truncate">
-        					<a onclick="{!c.viewIdea}" id="{!obj.Id}"> {!obj.Title} </a>
-    						</div>
-                        <!-- TEMP-->
                         <c:IdeaItem IdeaRecord="{!obj}"/>
                     </aura:iteration>
                     <lightning:buttonGroup >

@@ -28,7 +28,7 @@ public class IdeaSelector {
         //String SelectClause = 'Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea';
         //String SelectClause = 'Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, CreatedDate, VoteTotal From Idea';
         String SelectClause = 'Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, '; 
-        SelectClause += 'CreatedDate, VoteScore, VoteTotal, ';
+        SelectClause += 'CreatedDate, VoteScore, VoteTotal, Categories, ';
         SelectClause += '(Select Id, ParentId, Type, CreatedDate, CreatedById ';
         //SelectClause += 'From Votes where CreatedById =: userinfo.getuserid()) From Idea';
         SelectClause += 'From Votes where CreatedById = \'' + userinfo.getuserid() + '\') From Idea';
