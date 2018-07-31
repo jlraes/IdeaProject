@@ -1,6 +1,6 @@
 ({
     doInit : function(component, event, helper) {
-      	console.log('IdeaComponentController - doInit ...');
+        console.log('IdeaComponentController - doInit ...');
         var action = component.get('c.CommunityForIdea');
         component.set('v.isSending',true);
         action.setCallback(this,function(response){
@@ -22,8 +22,8 @@
         });
         $A.enqueueAction(action);
     },
-	showAllIdeas : function(component, event, helper) {
-		var action = component.get('c.AllIdeas');
+    showAllIdeas : function(component, event, helper) {
+        var action = component.get('c.AllIdeas');
         var pageSize = component.get("v.pageSize");
         component.set('v.isSending',true);
         action.setParams({
@@ -55,7 +55,7 @@
             }
         });
         $A.enqueueAction(action);
-	},
+    },
     showRecentIdeas : function(component, event, helper){
         helper.recentIdeas(component);
     },
@@ -97,5 +97,50 @@
     viewIdea : function(component, event, helper){ 
         console.log('IdeaComponentController - viewIdea - about to displayIdeaOld ');
         helper.displayIdeaOld(component, event);
+    },
+    // to HANDLE
+    promoteAnIdea : function(component, event, helper){
+        var IdeaId = event.target.getAttribute('data-idValue');
+        var action = component.get("c.promoteIdea");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(a) {
+            console.log('Promote: '+a.getReturnValue());
+            helper.IdeasList(component, event);
+        });
+        $A.enqueueAction(action);
+    },
+    demoteAnIdea : function(component, event, helper){
+        var IdeaId = event.target.getAttribute('data-idValue');
+        var action = component.get("c.demoteIdea");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(a) {
+            console.log('Demote: '+a.getReturnValue());
+            helper.IdeasList(component, event);
+        });
+        $A.enqueueAction(action);
+    },
+    promoteAnIdeaDetails : function(component, event){
+        var IdeaId = event.target.getAttribute('data-idValue');
+        console.log('Idea Id: '+IdeaId);
+        
+        var action = component.get("c.promoteFromIdeaDetails");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(a) {
+            component.set("v.thisIdea", a.getReturnValue());
+        });
+        $A.enqueueAction(action);
+    },
+    demoteAnIdeaDetails : function(component, event){
+        var IdeaId = event.target.getAttribute('data-idValue');
+        console.log('Idea Id: '+IdeaId);
+        
+        var action = component.get("c.demoteFromIdeaDetails");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(a) {
+            component.set("v.thisIdea", a.getReturnValue());
+        });
+        $A.enqueueAction(action);
     }
+
+    
 })

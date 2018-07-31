@@ -2,6 +2,8 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:attribute name="IdeaRecord" type="Idea" />
     <aura:registerEvent name="ViewIdeaEvent" type="c:ViewIdeaEvent"/>
+    <aura:registerEvent name="PromoteIdeaEvent" type="c:PromoteIdeaEvent"/>
+    <aura:registerEvent name="DemoteIdeaEvent" type="c:DemoteIdeaEvent"/>
     
     <!--
     <div class="slds-truncate">

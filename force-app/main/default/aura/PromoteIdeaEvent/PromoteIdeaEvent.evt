@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Event template for promoting idea record" >
+    <aura:attribute name="IdeaRecord" type="Idea" />
+</aura:event>
