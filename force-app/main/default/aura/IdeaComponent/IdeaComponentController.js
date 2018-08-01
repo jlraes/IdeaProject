@@ -99,7 +99,12 @@
         helper.displayIdeaOld(component, event);
     },
     // to HANDLE
-    promoteAnIdea : function(component, event, helper){
+    handlePromoteIdea : function(component, event, helper){
+        console.log('IdeaComponentController - handlePromoteIdea - event received. About to respond with action..');
+        var IdeaRecord = event.getParam("IdeaRecord");
+        helper.promoteIdea(component, IdeaRecord.Id);
+    },
+    promoteAnIdeaList : function(component, event, helper){
         var IdeaId = event.target.getAttribute('data-idValue');
         var action = component.get("c.promoteIdea");
         action.setParams({"IdeaId" : IdeaId});
@@ -109,7 +114,7 @@
         });
         $A.enqueueAction(action);
     },
-    demoteAnIdea : function(component, event, helper){
+    demoteAnIdeaList : function(component, event, helper){
         var IdeaId = event.target.getAttribute('data-idValue');
         var action = component.get("c.demoteIdea");
         action.setParams({"IdeaId" : IdeaId});

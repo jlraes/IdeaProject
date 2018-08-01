@@ -73,14 +73,14 @@
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1532964816616,
-            "changeTime": 1532964816616,
-            "contentHash": "2a6879fc6f587d71baf37a26bf98958cf37c0e84"
+            "modifiedTime": 1533121784054,
+            "changeTime": 1533121784054,
+            "contentHash": "894401e9aca5d1a8f8c07cb7d07429572cd822c8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -523,7 +523,7 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\CreateIdeaEvent",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1532499589316,
+            "modifiedTime": 1532964816612,
             "changeTime": 1532499589316,
             "contentHash": "15a24c6620bb1ff1c52b59a75fe79aa54921476d",
             "isMetadataFile": false,
@@ -535,27 +535,27 @@
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\CreateIdeaEvent\\CreateIdeaEvent.evt",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\CreateIdeaEvent\\CreateIdeaEvent.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 79,
             "modifiedTime": 1532964816612,
             "changeTime": 1532964816612,
-            "contentHash": "82f418f38f35278cfefbc7c7d87f42db465d58ce"
+            "contentHash": "82f418f38f35278cfefbc7c7d87f42db465d58ce",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\CreateIdeaEvent\\CreateIdeaEvent.evt-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\CreateIdeaEvent\\CreateIdeaEvent.evt-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1532964816610,
             "changeTime": 1532964816610,
-            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -779,7 +779,7 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1532940353190,
+            "modifiedTime": 1533121784052,
             "changeTime": 1532499589331,
             "contentHash": "e20fed8c6f605bcf6339bc06764a5de86a9f3779",
             "isMetadataFile": false,
@@ -795,10 +795,10 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponent.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 12038,
-            "modifiedTime": 1532964816606,
-            "changeTime": 1532964816606,
-            "contentHash": "ae07fd9da60f13c277d1d03444b20d74413453a5"
+            "size": 12140,
+            "modifiedTime": 1533137858113,
+            "changeTime": 1533137858113,
+            "contentHash": "889b1f4cd01e14a43fca2f27bc40d6f0325d9586"
         }
     ],
     [
@@ -838,10 +838,10 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4214,
-            "modifiedTime": 1532964816607,
-            "changeTime": 1532964816607,
-            "contentHash": "ab2e33f0332908eb7934cdb4714c88ba09631a82"
+            "size": 6278,
+            "modifiedTime": 1533137858116,
+            "changeTime": 1533137858116,
+            "contentHash": "2868b1fd21bd8f8b662b39b31def4e6061259409"
         }
     ],
     [
@@ -851,10 +851,10 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 9352,
-            "modifiedTime": 1532964816609,
-            "changeTime": 1532964816609,
-            "contentHash": "8700b66080516f207da6d393d1c3c5945d2d6cbf"
+            "size": 9764,
+            "modifiedTime": 1533137858119,
+            "changeTime": 1533137858119,
+            "contentHash": "fd0c5f222554b3102bfc5c8917153a30c76e4025"
         }
     ],
     [
@@ -1229,7 +1229,7 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1532940353195,
+            "modifiedTime": 1532964816620,
             "changeTime": 1532940353195,
             "contentHash": "672cfa5c5de7f150033fefd16915b50a6efb7b40",
             "isMetadataFile": false,
@@ -1695,15 +1695,14 @@
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\classes\\IdeaComponentController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\classes\\IdeaComponentController.cls",
             "isDirectory": false,
-            "size": 7314,
-            "modifiedTime": 1532940353193,
-            "changeTime": 1532940353193,
-            "contentHash": "575000e35980d28fe392bb43f7626c8a294f0691",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 9928,
+            "modifiedTime": 1533137858128,
+            "changeTime": 1533137858128,
+            "contentHash": "e5a54cc249e290dc3dbe9d3b6e85d82ff908806b"
         }
     ],
     [
@@ -3697,7 +3696,7 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1532940353191,
+            "modifiedTime": 1533121784054,
             "changeTime": 1532940353191,
             "contentHash": "42468ef44fe30a19e46b73cf26c949ae37649a3d",
             "isMetadataFile": false,
@@ -3711,10 +3710,10 @@
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItem.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 6214,
-            "modifiedTime": 1532964816614,
-            "changeTime": 1532964816614,
-            "contentHash": "69f0dfd68555fa3b0ef8d1074539b8b57fb09863"
+            "size": 6364,
+            "modifiedTime": 1533137858124,
+            "changeTime": 1533137858124,
+            "contentHash": "9e61818e5bcf2f2c12222a26cfddbb78135c43eb"
         }
     ],
     [
@@ -3733,27 +3732,27 @@
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItemController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\IdeaItem\\IdeaItemController.js",
             "isDirectory": false,
+            "size": 1478,
+            "modifiedTime": 1533121784054,
+            "changeTime": 1533121784054,
+            "contentHash": "5ce581bdd8db3da5aaea53ff57082bd069c47acc",
             "isMetadataFile": false,
-            "size": 582,
-            "modifiedTime": 1532964816616,
-            "changeTime": 1532964816616,
-            "contentHash": "e25c0d43dfa41fa472807df7191aca939bbf39ff"
+            "state": "u"
         }
     ],
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\classes\\IdeaSelector.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2511,
             "modifiedTime": 1532964816621,
             "changeTime": 1532964816621,
-            "contentHash": "e78fa179ff65249ac8b7043ea64e021a523abd10"
+            "contentHash": "e78fa179ff65249ac8b7043ea64e021a523abd10",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3772,40 +3771,118 @@
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent\\ViewIdeaEvent.evt-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent\\ViewIdeaEvent.evt-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1532964816617,
             "changeTime": 1532964816617,
-            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent\\ViewIdeaEvent.evt",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent\\ViewIdeaEvent.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 151,
             "modifiedTime": 1532964816618,
             "changeTime": 1532964816618,
-            "contentHash": "d88222329a55b630c2cbfa20bfedf053b202fe3a"
+            "contentHash": "d88222329a55b630c2cbfa20bfedf053b202fe3a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent",
         {
-            "state": "u",
             "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\ViewIdeaEvent",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1532964816618,
             "changeTime": 1532964816618,
-            "contentHash": "6547a408cf8d7e4713cd78ee2e7f9035af9c09a9"
+            "contentHash": "6547a408cf8d7e4713cd78ee2e7f9035af9c09a9",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1533121784050,
+            "changeTime": 1533121784050,
+            "contentHash": "211ef33a6850bc9657e58f5b9ba199e783032f42",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1533121784055,
+            "changeTime": 1533121784055,
+            "contentHash": "9b13cc06f42739491c2b3575c9f8040154b24581",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent\\DemoteIdeaEvent.evt",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent\\DemoteIdeaEvent.evt",
+            "isDirectory": false,
+            "size": 153,
+            "modifiedTime": 1533121784050,
+            "changeTime": 1533121784050,
+            "contentHash": "3a6d0e1e14535caa707cdc20f1f68cbf80807b6d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent\\DemoteIdeaEvent.evt-meta.xml",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\DemoteIdeaEvent\\DemoteIdeaEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1533121784051,
+            "changeTime": 1533121784051,
+            "contentHash": "78d8681541bc136ce98816dfc3b101cc2e3de47d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent\\PromoteIdeaEvent.evt",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent\\PromoteIdeaEvent.evt",
+            "isDirectory": false,
+            "size": 154,
+            "modifiedTime": 1533121784055,
+            "changeTime": 1533121784055,
+            "contentHash": "9f0e3621e428fb168b413f5253e6f6e407f9236d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent\\PromoteIdeaEvent.evt-meta.xml",
+        {
+            "sourcePath": "C:\\DATA\\DEV\\SALESFORCE DEV\\PROJECTS\\IdeaProject\\IdeaProject\\force-app\\main\\default\\aura\\PromoteIdeaEvent\\PromoteIdeaEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1533121784055,
+            "changeTime": 1533121784055,
+            "contentHash": "78d8681541bc136ce98816dfc3b101cc2e3de47d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

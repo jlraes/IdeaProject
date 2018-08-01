@@ -240,5 +240,18 @@
             //navService.navigate(pageReference); 
             evt.fire();
         }
+    },
+     promoteIdea : function(component, IdeaRecordId){
+        var IdeaId = IdeaRecordId;
+		var action = component.get("c.promoteIdea");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(response) {
+            console.log('Promote: '+response.getReturnValue());
+        	});
+        $A.enqueueAction(action);
+
+        //$A.get('e.force:refreshView').fire();
     }
+ 
+     
 })

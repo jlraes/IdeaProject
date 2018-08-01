@@ -14,9 +14,9 @@ public with sharing class IdeaComponentController {
         }
         System.debug('CommunityId '+CommunityId);
         if(hasAccess()){
-               //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
-            	ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
-           }
+            //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+            ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
+        }
         return ideasList;
     }
     
@@ -24,9 +24,9 @@ public with sharing class IdeaComponentController {
     public static List<Idea> AllIdeasByCommunityId(String CommunityId){
         List<Idea> ideasList = new List<Idea>();
         if(hasAccess()){
-               //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
-               ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
-           }
+            //ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where CommunityId=:CommunityId LIMIT 50000];
+            ideasList = IdeaSelector.AllIdeasByCommunityId(CommunityId);
+        }
         return ideasList;
     }
     
@@ -45,7 +45,7 @@ public with sharing class IdeaComponentController {
         if(hasAccess()){
             //   ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, NumComments, CreatedDate From Idea Where VoteTotal>=150 AND CommunityId=:CommunityId LIMIT 50000];
             ideasList = IdeaSelector.AllTopIdeas(CommunityId);
-           }
+        }
         
         return ideasList;
     }
@@ -78,9 +78,9 @@ public with sharing class IdeaComponentController {
         }
         
         if(hasAccess()){
-              // ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, CreatedDate From Idea Where LastViewedDate=THIS_WEEK AND CommunityId=:CommunityId LIMIT 50000];
+            // ideasList = [Select Id, Title,IsHtml,Body,CommunityId,CreatorName, LastViewedDate, NumComments, CreatedDate From Idea Where LastViewedDate=THIS_WEEK AND CommunityId=:CommunityId LIMIT 50000];
             ideasList = IdeaSelector.AllRecentIdeas(CommunityId);
-           } 
+        } 
         
         return ideasList;
     }
@@ -121,13 +121,112 @@ public with sharing class IdeaComponentController {
     }
     private static boolean hasAccess(){
         return Schema.SObjectType.Idea.isQueryable() && 
-           Schema.sObjectType.Idea.fields.ID.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Title.isAccessible() &&
-           Schema.sObjectType.Idea.fields.Body.isAccessible()&&
-           Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
-           Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
-           Schema.sObjectType.Idea.fields.CreatedDate.isAccessible();
+            Schema.sObjectType.Idea.fields.ID.isAccessible() &&
+            Schema.sObjectType.Idea.fields.Title.isAccessible() &&
+            Schema.sObjectType.Idea.fields.Body.isAccessible()&&
+            Schema.sObjectType.Idea.fields.Categories.isAccessible() &&
+            Schema.sObjectType.Idea.fields.CreatorName.isAccessible() &&
+            Schema.sObjectType.Idea.fields.NumComments.isAccessible() &&
+            Schema.sObjectType.Idea.fields.CommunityId.isAccessible() &&
+            Schema.sObjectType.Idea.fields.CreatedDate.isAccessible();
     }
+    
+    /*Promote an Idea*/
+    @AuraEnabled
+    public static String promoteIdea(String IdeaId) {
+        List<Idea> recentIdeas = new List<Idea>();
+        try {
+            Vote newVote = new Vote();
+            newVote.Type = 'Up';
+            newVote.ParentId = IdeaId;
+            insert newVote;
+            
+        } catch (Exception e) {
+            System.debug(e);
+        }
+        return 'Idea Promoted';
+    }
+    
+    /*Promote an Idea from IdeaDetails page*/
+    @AuraEnabled
+    public static Idea promoteFromIdeaDetails(String IdeaId) {
+        try {
+            Vote newVote = new Vote();
+            newVote.Type = 'Up';
+            newVote.ParentId = IdeaId;
+            insert newVote;
+            
+        } catch (Exception e) {
+            System.debug(e);
+        }
+        return getIdea(IdeaId);
+    }
+    
+    /*Demote an Idea*/
+    @AuraEnabled
+    public static String demoteIdea(String IdeaId) {
+        List<Idea> recentIdeas = new List<Idea>();
+        try {
+            Vote newVote = new Vote();
+            newVote.Type = 'Down';
+            newVote.ParentId = IdeaId;
+            insert newVote;
+            
+        } catch (Exception e) {
+            System.debug(e);
+        }
+        return 'Idea Demoted';
+    }
+    
+    /*Demote an Idea from IdeaDetails page*/
+    @AuraEnabled
+    public static Idea demoteFromIdeaDetails(String IdeaId) {
+        try {
+            Vote newVote = new Vote();
+            newVote.Type = 'Down';
+            newVote.ParentId = IdeaId;
+            insert newVote;
+            
+        } catch (Exception e) {
+            System.debug(e);
+        }
+        return getIdea(IdeaId);
+    }
+    
+    /*Get an Idea*/
+    @AuraEnabled
+    public static Idea getIdea(String IdeaId) {
+        Idea thisidea = null;
+        try {
+            thisIdea = [
+                SELECT 
+                Id,
+                Title,
+                Status,
+                RecordTypeId,
+                CreatedById,
+                CreatedDate,
+                CreatorName,
+                CreatorSmallPhotoUrl,
+                Body,
+                Categories,
+                NumComments,
+                VoteScore,
+                VoteTotal,
+                (Select Id, ParentId, Type, CreatedDate, CreatedById From Votes where CreatedById =: userinfo.getuserid()),
+                (Select Id, CommentBody, CreatedBy.Name, CreatedDate, UpVotes From Comments where IsDeleted = false order by CreatedDate)
+                FROM 
+                Idea 
+                WHERE 
+                Id = :IdeaId
+                LIMIT 1
+            ];
+        } catch (Exception e) {
+            System.debug(e);
+        }
+        system.debug('****** thisIdea: '+thisIdea);
+        return thisIdea;
+    }
+    
+    
 }

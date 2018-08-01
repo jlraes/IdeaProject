@@ -23,7 +23,7 @@
     <aura:handler name='init' value="{!this}" action="{!c.doInit}" />
     <aura:handler name="CreateIdeaEvent" event="c:CreateIdeaEvent" action="{!c.refreshPage}"/>
     <aura:handler name="ViewIdeaEvent" event="c:ViewIdeaEvent" action="{!c.handleViewEvent}"/>
-    
+    <aura:handler name="PromoteIdeaEvent" event="c:PromoteIdeaEvent" action="{!c.handlePromoteIdea}"/>    
     <!-- For navigation to Idea View Component -->
     <lightning:navigation aura:id="navService"/>
     <!-- Spinner Start  -->
