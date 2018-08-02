@@ -7,9 +7,9 @@ sfdx force:data:tree:import --targetusername IdeaProject --plan sfdx-out/export-
 Manually: Create new idea zone "Tracker Ideas" (CLASSIC MODE)
 
 2. push code
+sfdx force:source:push -f
 
 3. assign permission set
-
 sfdx force:user:permset:assign -n "Idea_Tracker"
 
 ## Resources
