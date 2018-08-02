@@ -1,12 +1,17 @@
 public class Test_PSR_TestingUtil {
     
-    public static Idea createIdea(String Title){
+    public static Idea createIdea(String Title, Id CommunityId){
         // create instance of idea object
         Idea idea             =  new Idea(Title=Title);
         idea.Status = 'New';
         idea.Categories = ('360 Online;360 Connect');
-        idea.CommunityId = getCommunityId();
+        idea.CommunityId = CommunityId;
         return idea;
+    }
+    
+    public static string getListIdeas() {
+        String soql = 'select Id, Status, Categories, CommunityId from Idea';
+        return soql;
     }
     
     public static IdeaComment createIdeaComment(String Comment, Idea idea){
@@ -18,10 +23,13 @@ public class Test_PSR_TestingUtil {
         //SELECT Id, IdeaId, IsHtml, UpVotes, CreatorName, CommentBody, CommunityId FROM IdeaComment
     }
     
-    public static User createUser(){
+    public static User createUser(Integer index){
+        // System Administrator (5)
+        // Company Communities User (10)
+        
         User u = new User(
             ProfileId = [SELECT Id FROM Profile WHERE Name = 'System Administrator'].Id,
-            LastName = 'last',
+            LastName = 'last' + index,
             Email = 'p.user000@example.com',
             Username = 'p.user000@dummy.example.com' + System.currentTimeMillis(),
             CompanyName = 'TEST',
@@ -36,14 +44,15 @@ public class Test_PSR_TestingUtil {
         return u;
     }
     
-    private static Id getCommunityId() {
-        Id id ;
+    public static List<Id> getCommunityIds() {
+        List<Id> ListIds = new List<Id>();
         
         List<Community> ListCommunities = [SELECT Id, Name, Description, NetworkId FROM Community where Name = 'Tracker Ideas' ];
-        if (ListCommunities.size() > 0) {
-            id = ListCommunities[0].Id;
+        
+        for (Community CommunityRecord : ListCommunities) {
+            ListIds.add(CommunityRecord.Id);
         }
-        return id;   
+        return ListIds;   
     }
 
     public static Id getPermissionSet() {

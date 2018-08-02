@@ -1,6 +1,6 @@
 {
-    "orgName": "Demo Company",
-    "edition": "Developer",
+    "orgName": "IdeaProject Company",
+    "edition": "Enterprise",
     "features": ["Communities","Sites"],
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled","NetworksEnabled","IsChatterProfileEnabled","IsIdeaThemesEnabled","IsIdeasEnabled","IsIdeasReputationEnabled"],

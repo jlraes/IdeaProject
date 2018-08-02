@@ -86,6 +86,29 @@
                 <ui:outputRichText value="{!v.ideaWithComments.idea.Body}" class="slds-output" />
                 
             </div>
+                    <div class="voteForIdea">
+            <!-- TODO: Refactor voting buttons into a child component -->
+            <aura:if isTrue="{!v.IdeaRecord.Votes[0].Type != null}">
+                <!-- GENERAL RULES FOR IDEA VOTING: -->
+                <!-- 
+        1. If you create an idea, you automatically vote the idea up.
+        2. If someone else creates the idea, you can vote it up or vote it down once. You can change your vote
+       -->
+                <aura:if isTrue="{!v.IdeaRecord.Votes[0].Type == 'Up'}">
+                    <img width="30" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promoted.png'}" /> &nbsp;
+                    <!-- img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.demoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demote.png'}" / -->
+                    <aura:set attribute="else">
+                        <img width="30" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demoted.png'}" />&nbsp;
+                        <!-- img width="30" class="promoteDemoteIdea" onclick="{!c.promoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promote.png'}" / -->
+                    </aura:set>
+                </aura:if>
+                <aura:set attribute="else">
+                    <img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.promoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/promote.png'}" /> &nbsp;
+                    <img width="30" class="promoteDemoteIdea" data-idValue="{!v.IdeaRecord.Id}" onclick="{!c.demoteAnIdea}" src="{!$SfdcSite.pathPrefix + '/resource/communityIdeasAssets/demote.png'}" />
+                </aura:set>
+            </aura:if>
+        </div> <!-- END VOTE -->
+
         </div>
     </div>
     <br/>

@@ -82,7 +82,7 @@
                 if(result.length==0){
                     component.set('v.noIdeas',true);
                 }else{
-                   component.set('v.noIdeas',false); 
+                    component.set('v.noIdeas',false); 
                 }
             }else if(state === 'ERROR'){
                 console.log(response.error);
@@ -227,7 +227,7 @@
             }
         }
         //navService.navigate(pageReference);
-
+        
         var evt = $A.get("e.force:navigateToComponent");
         evt.setParams({
             componentDef : "c:ViewIdea",
@@ -241,17 +241,63 @@
             evt.fire();
         }
     },
-     promoteIdea : function(component, IdeaRecordId){
+    promoteIdea : function(component, IdeaRecordId){
         var IdeaId = IdeaRecordId;
-		var action = component.get("c.promoteIdea");
+        var action = component.get("c.promoteIdea");
         action.setParams({"IdeaId" : IdeaId});
         action.setCallback(this, function(response) {
             console.log('Promote: '+response.getReturnValue());
-        	});
+        });
         $A.enqueueAction(action);
-
+        
         //$A.get('e.force:refreshView').fire();
+    },  
+    // not yet used
+    getIdea : function(component, IdeaRecordId){
+        var IdeaId = IdeaRecordId;
+        var action = component.get("c.getIdea");
+        action.setParams({"IdeaId" : IdeaId});
+        action.setCallback(this, function(response) {
+            console.log('Promote: '+response.getReturnValue());
+        });
+        $A.enqueueAction(action);
+        
+        //$A.get('e.force:refreshView').fire();
+    },
+    displayIdeaTest : function(component, IdeaRecordId){
+        //var idx = event.target.id;
+        var idx = IdeaRecordId;
+        console.log('displayIdeaTest - Clicked Idea Id =>'+idx+'  '+component.get('v.CommunitySite'));
+        component.set("v.ideaId",idx);
+        component.set("v.navigate",true);
+
+        console.log('displayIdeaTest - about to getIdea');
+        var action = component.get("c.getIdea");
+        action.setParams({"IdeaId" : idx});
+        action.setCallback(this, function(response) {
+            var thisIdea = response.getReturnValue();
+            console.log('Navigate: '+thisIdea);
+            
+            var evt = $A.get("e.force:navigateToComponent");
+            evt.setParams({
+                componentDef : "c:CommunityIdeaDetail",
+                componentAttributes: {
+                    ideaId : idx,
+                    Community : component.get('v.CommunitySite'),
+                    thisIdea : thisIdea,
+                    comments : thisIdea.comments
+                }
+            });
+            if( component.get('v.CommunitySite') === 'No'){ 
+                //navService.navigate(pageReference); 
+                evt.fire();
+            }
+            
+        });
+        $A.enqueueAction(action);
+        
+        
     }
- 
-     
+    
+    
 })

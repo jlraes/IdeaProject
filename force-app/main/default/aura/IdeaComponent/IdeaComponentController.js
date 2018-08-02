@@ -92,7 +92,8 @@
     handleViewEvent : function(component, event, helper){
         console.log('IdeaComponentController - handleViewEvent - event received. About to respond with action..');
         var IdeaRecord = event.getParam("IdeaRecord");
-        helper.displayIdea(component, IdeaRecord.Id);
+        //helper.displayIdea(component, IdeaRecord.Id);
+        helper.displayIdeaTest(component, IdeaRecord.Id);
     },
     viewIdea : function(component, event, helper){ 
         console.log('IdeaComponentController - viewIdea - about to displayIdeaOld ');
