@@ -94,6 +94,7 @@
         var IdeaRecord = event.getParam("IdeaRecord");
         //helper.displayIdea(component, IdeaRecord.Id);
         helper.displayIdeaTest(component, IdeaRecord.Id);
+        //helper.displayIdeaNavigate(component, IdeaRecord.Id);
     },
     viewIdea : function(component, event, helper){ 
         console.log('IdeaComponentController - viewIdea - about to displayIdeaOld ');

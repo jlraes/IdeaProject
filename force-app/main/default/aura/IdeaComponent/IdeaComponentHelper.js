@@ -277,10 +277,10 @@
         action.setCallback(this, function(response) {
             var thisIdea = response.getReturnValue();
             console.log('Navigate: '+thisIdea);
-            
+            //c:CommunityIdeaDetail
             var evt = $A.get("e.force:navigateToComponent");
             evt.setParams({
-                componentDef : "c:CommunityIdeaDetail",
+                componentDef : "c:IdeaDetail",
                 componentAttributes: {
                     ideaId : idx,
                     Community : component.get('v.CommunitySite'),
@@ -297,6 +297,40 @@
         $A.enqueueAction(action);
         
         
+    },
+    displayIdeaNavigate : function(component, IdeaRecordId){
+        //var idx = event.target.id;
+        var idx = IdeaRecordId;
+        console.log('Clicked Idea Id =>'+idx+'  '+component.get('v.CommunitySite'));
+        component.set("v.ideaId",idx);
+        component.set("v.navigate",true);
+        
+        var navService = component.find("navService");
+        
+        var pageReference = {    
+            "type": "standard__component",
+            "attributes": {
+                "componentName": "c__ViewIdea"    
+            },    
+            "state": {
+                ideaId : idx,  
+                Community : component.get('v.CommunitySite')
+            }
+        }
+        navService.navigate(pageReference);
+        /*
+        var evt = $A.get("e.force:navigateToComponent");
+        evt.setParams({
+            componentDef : "c:ViewIdea",
+            componentAttributes: {
+                ideaId : idx,
+                Community : component.get('v.CommunitySite')
+            }
+        });*/
+        if( component.get('v.CommunitySite') === 'No'){ 
+            navService.navigate(pageReference); 
+            //evt.fire();
+        }
     }
     
     

@@ -92,16 +92,14 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1533069393130,
-            "changeTime": 1533069393130,
-            "contentHash": "894401e9aca5d1a8f8c07cb7d07429572cd822c8",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1533274866274,
+            "changeTime": 1533274866274,
+            "contentHash": "45abf3ec7ac22ff9b37b34d3a774bd381c3f6d7b"
         }
     ],
     [
@@ -962,31 +960,27 @@
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentController.js",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentController.js",
             "isDirectory": false,
-            "size": 6489,
-            "modifiedTime": 1533238638593,
-            "changeTime": 1533238638593,
-            "contentHash": "403884dbe2e7088cfcfc4cf361e43683f9602338",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 6402,
+            "modifiedTime": 1533274866271,
+            "changeTime": 1533274866271,
+            "contentHash": "aca27f86828de6b3df7d4ab63d7329a844de5fce"
         }
     ],
     [
         "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentHelper.js",
         {
+            "state": "u",
             "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaComponent\\IdeaComponentHelper.js",
             "isDirectory": false,
-            "size": 11801,
-            "modifiedTime": 1533238638594,
-            "changeTime": 1533238638594,
-            "contentHash": "a22addfeabe133c1d95f48d58551f0f9875d9b8b",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 12677,
+            "modifiedTime": 1533274866273,
+            "changeTime": 1533274866273,
+            "contentHash": "3dcfd13d982156b455feb32adee18e863c8ecbee"
         }
     ],
     [
@@ -4182,6 +4176,97 @@
             "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1533274866275,
+            "changeTime": 1533274866275,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.css",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1844,
+            "modifiedTime": 1533274866276,
+            "changeTime": 1533274866276,
+            "contentHash": "9b8e043b08762e8dd6b6ec94cbac03fe914869f7"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetailController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetailController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4109,
+            "modifiedTime": 1533274866277,
+            "changeTime": 1533274866277,
+            "contentHash": "e2673f813acea95c2644122c5767d62f8c343732"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.design",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1533274866277,
+            "changeTime": 1533274866277,
+            "contentHash": "98876aa663e505f28c2791f08b9192052c5e153e"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.cmp",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetail.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5863,
+            "modifiedTime": 1533274866278,
+            "changeTime": 1533274866278,
+            "contentHash": "2a90f67e862652383f5f393c5d6d7e9385dd7c34"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetailHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail\\IdeaDetailHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 340,
+            "modifiedTime": 1533274866279,
+            "changeTime": 1533274866279,
+            "contentHash": "68470894c02fd1e4f2e7bfc6302dbe1d8d955aa5"
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\IdeaProjectGit\\IdeaProject\\force-app\\main\\default\\aura\\IdeaDetail",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1533274866279,
+            "changeTime": 1533274866279,
+            "contentHash": "4661857d097bf538fd0ee42fb981b0b92d4170ce"
         }
     ]
 ]
