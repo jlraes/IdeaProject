@@ -1,6 +1,10 @@
 .THIS *{
     font-family: 'SalesforceSans-Regular',Arial,sans-serif;
 }
+.THIS.c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
 .THIS .ideaContainer{
     padding-top: 20px;
     background-color: white;
